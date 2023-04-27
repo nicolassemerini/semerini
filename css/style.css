@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+body{ /*imagen fondo del body*/
+    background-color:whitesmoke; 
+    background-image: url(../imagenes/logo/signos.png);
+}
+
+.contenedor-flex {/*contenedor header*/
+    background-color: rgb(56, 56, 56);
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    background-color: rgb(56, 56, 56);
+    justify-content: flex-start;
+}
+
+.contenedor-flex .box-navbar {
+    
+    
+    padding: 10px;
+    margin: 10px;
+}
+
+.contenedor-flex .box-orejano {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    color: red;
+    padding-left: 5%;
+    
+}
+
+
+.carousel{
+    background-image: url(../imagenes/logo/signos.png);
+    height: 50%;
+    width: 50%;
+    margin-left: 25%;
+    color: black;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+
+.spoty{
+    display: flex;
+    background-color: rgb(56, 56, 56);
+    justify-content: space-around;
+    align-items: center
+}
+.pie-pagina {
+    flex-grow: 10;
+}
+
+.pie-pagina li{
+    display:inline;
+    padding: 20px;
+   
+    
+}
+.spoty .spoty-1{
+    flex-grow: 3;
+}
+
+
+.sec-grid{
+    background-image: url(../imagenes/logo/signos.png);}
+
+
+  .contenedor-grid{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    
+        grid-gap: 20px;
+        max-width: 100%;
+       
+        padding: 5%;
+       
+
+    
+    
+    }
+
+ 
+    
+      
+       .imagen {
+        
+        width: 100%;
+        height: auto;
+      }
+      
+      .descripcion{
+        background-color: azure;
+        padding: 10px;
+        transition: transform .5s;
+        text-align: center;
+        justify-content: center;
+      }
+      .descripcion:hover{
+
+        transform: scale(1.5);
+      }
+
+
+    .box-gps{
+        display: flex;
+        background-image: url(../imagenes/logo/signos.png);
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: flex-start
+    }
+.info{
+    margin-left: 25%;
+    font-size: 30px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    text-align: end;
+}
+
+
+
+
+
+
+
+
