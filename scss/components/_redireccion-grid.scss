@@ -1,10 +1,11 @@
 @import "../base/variables/variables-red-grid";
 @import "../base/extend/extend-grid";
+@import "../base/media-queries/media";
 
 
 .sec-grid{
 
-    background-image: nth($bg-sec-grid,1 );
+    @include bg-img-logo;
     .contenedor-grid{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -29,5 +30,5 @@
 }
 .descripcion:hover{
 
-    transform: scale(1.5);
-  }
+        transform: scale(1.5);
+      }

@@ -9,3 +9,7 @@
         @content ;
     }
 }
+
+@mixin bg-img-logo {
+    background-image: url(../../../imagenes/logo/signos.png);
+}

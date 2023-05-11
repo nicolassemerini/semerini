@@ -1,9 +1,9 @@
 @import "../base/variables/variable-ubi";
-
+@import "../base/media-queries/media";
 .box-gps{
     
     display: flex;
-    background-image: nth($bg-img-body ,1);
+   @include bg-img-logo;
     justify-content: space-between;
     flex-direction: row;
     align-items: flex-start;

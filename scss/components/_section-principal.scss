@@ -2,7 +2,7 @@
 @import "../base/media-queries/media";
 
 .carousel {
-    background-image: nth($bg-img-section, $n:1 );
+    @include bg-img-logo;
     height: 70%;
     width: 70%;
     margin-left: 15%;

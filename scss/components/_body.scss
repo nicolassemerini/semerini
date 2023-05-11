@@ -1,7 +1,8 @@
 @import "../base/variables/variables-body";
+@import "../base/media-queries/media";
 
 body { background-color: $bg-colour-body;
-    background-image:nth($bg-img-body,1);
+    @include bg-img-logo;
 }
 
 
