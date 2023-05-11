@@ -1,0 +1,23 @@
+@import "../base/variables/variables-section-pr";
+@import "../base/media-queries/media";
+
+.carousel {
+    background-image: nth($bg-img-section, $n:1 );
+    height: 70%;
+    width: 70%;
+    margin-left: 15%;
+    color: $colour-carrousel;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    @include mobile{height: 100%;
+        width: 100%;
+        margin: auto;
+
+    }
+    @include tablet {height: 100%;
+        width: 100%;
+        margin: auto;
+
+    }
+    
+}

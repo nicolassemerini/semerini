@@ -1,0 +1,33 @@
+@import "../base/variables/variables-red-grid";
+@import "../base/extend/extend-grid";
+
+
+.sec-grid{
+
+    background-image: nth($bg-sec-grid,1 );
+    .contenedor-grid{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    
+        grid-gap: 20px;
+        max-width: 100%;
+       
+        padding: 5%;
+    }
+    .imagen{
+        @extend %img-grid;
+}
+.descripcion{
+    background-color: $bg-colour-des;
+    padding: 10px;
+    transition: transform .5s;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+}
+.descripcion:hover{
+
+    transform: scale(1.5);
+  }

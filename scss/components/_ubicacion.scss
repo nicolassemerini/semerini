@@ -1,0 +1,33 @@
+@import "../base/variables/variable-ubi";
+
+.box-gps{
+    
+    display: flex;
+    background-image: nth($bg-img-body ,1);
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-start;
+    .gps{@include tablet{
+        height: auto;
+        width: auto;
+    
+    }
+    @include mobile{  height:50%;
+        width:50%;}}
+    .info{
+        margin-left: 25%;
+        font-size: 30px;
+        color: $colour-ubi;
+        font-family: $font-info;
+       
+        text-align: end;@include tablet{
+            height: auto;
+            width: auto;
+        
+        }
+        @include mobile{  height: auto;
+            width: auto;}
+    }
+
+}
+

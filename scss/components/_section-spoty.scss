@@ -1,0 +1,33 @@
+@import "../base/variables/_variables-header.scss";
+@import "../base/media-queries/media";
+
+.spoty {
+    display: flex;
+    background-color: rgb(56, 56, 56);
+    justify-content: space-around;
+    align-items: center;
+    @include tablet{
+        height: auto;
+        width: auto;
+    
+    }
+    @include mobile{  height: auto;
+        width: auto;}
+
+    .spoty-1 {
+        flex-grow: 3;
+       
+    }
+
+    .pie-pagina {
+        flex-grow: 10;
+       
+    
+        }
+
+        li {
+            display: inline;
+            padding: 20px;
+        }
+
+    }

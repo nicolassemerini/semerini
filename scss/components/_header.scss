@@ -1,0 +1,30 @@
+@import "../base/variables/variables-header";
+
+
+
+.contenedor-flex {
+     background-color: $bg-colour-header;
+     display: flex;
+     height: $height-contenedor;
+     justify-content: flex-start;
+    .box-navbar{ padding: 10px;
+        margin: 10px;
+ } .box-orejano{display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    color: $colour-orejano;
+    padding-left: 5%;
+    
+
+
+
+ }
+
+
+     
+     
+
+
+
+}

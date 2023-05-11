@@ -1,0 +1,7 @@
+@import "../base/variables/variables-body";
+
+body { background-color: $bg-colour-body;
+    background-image:nth($bg-img-body,1);
+}
+
+
