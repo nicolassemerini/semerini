@@ -2,7 +2,8 @@
 @import "../base/media-queries/media";
 
 body { background-color: $bg-colour-body;
-    @include bg-img-logo;
+   @include img-logo;
+
 }
 
 
