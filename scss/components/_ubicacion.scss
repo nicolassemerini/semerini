@@ -9,12 +9,13 @@
     justify-content: space-between;
     flex-direction: row;
     align-items: flex-start;
-    .gps{@include tablet{
+    .gps{@include tablet{flex-direction: column;
         height: auto;
         width: auto;
     
-    }
-    @include mobile{  height:50%;
+    }}
+    @include mobile{  flex-direction: column;
+        height:50%;
         width:50%;}}
     .info{
         margin-left: 25%;
@@ -31,5 +32,4 @@
             width: auto;}
     }
 
-}
 

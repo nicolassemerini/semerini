@@ -81,7 +81,7 @@ body {
 }
 
 .sec-grid {
-  background-image: url(../../../imagenes/logo/signos.png);
+  background-image: url(url(../../../imagenes/logo/signos.png));
 }
 .sec-grid .contenedor-grid {
   display: grid;
@@ -104,24 +104,27 @@ body {
 
 .box-gps {
   display: flex;
-  background-image: url(../../../imagenes/logo/signos.png);
+  background-image: url(url(../../../imagenes/logo/signos.png));
   justify-content: space-between;
   flex-direction: row;
   align-items: flex-start;
 }
 @media screen and (max-width: 768px) {
   .box-gps .gps {
+    flex-direction: column;
     height: auto;
     width: auto;
   }
 }
 @media screen and (max-width: 568px) {
-  .box-gps .gps {
+  .box-gps {
+    flex-direction: column;
     height: 50%;
     width: 50%;
   }
 }
-.box-gps .info {
+
+.info {
   margin-left: 25%;
   font-size: 30px;
   color: red;
@@ -129,13 +132,13 @@ body {
   text-align: end;
 }
 @media screen and (max-width: 768px) {
-  .box-gps .info {
+  .info {
     height: auto;
     width: auto;
   }
 }
 @media screen and (max-width: 568px) {
-  .box-gps .info {
+  .info {
     height: auto;
     width: auto;
   }
