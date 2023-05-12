@@ -1,6 +1,6 @@
 body {
   background-color: whitesmoke;
-  background-image: url("../../../imagenes/logo/signos.png");
+  background-image: url("../imagenes/logo/signos.png");
 }
 
 .contenedor-flex {
@@ -80,7 +80,7 @@ body {
 }
 
 .sec-grid {
-  background-image: url(../../../imagenes/logo/signos.png);
+  background-image: url("../imagenes/logo/signos.png");
 }
 .sec-grid .contenedor-grid {
   display: grid;
@@ -103,6 +103,7 @@ body {
 
 .box-gps {
   display: flex;
+  background-image: url("../imagenes/logo/signos.png");
   justify-content: space-between;
   flex-direction: row;
   align-items: flex-start;

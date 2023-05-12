@@ -5,7 +5,7 @@
 
 .sec-grid{
 
-    @include img-logo;
+    background-image: url($bg-img-logo);
     .contenedor-grid{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
